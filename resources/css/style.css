@@ -1,0 +1,31 @@
+*{
+  font-family: Verdana, Arial, sans-serif;
+  background-color: red;
+}
+header{
+  display: block;
+  background-color: yellow;
+  border: 1px solid black;
+  width: 50%;
+}
+p{
+  margin-top: 100;  /*why is margin not working?!*/
+  border: 1px solid green;
+}
+h2{
+  margin: 0;
+  background-image: url("../images/img-story-main.png");
+  border: 5px dotted green;
+}
+
+.story-lead{
+  display: inline-block;
+  width: 24%;
+  background-color: purple;
+  border:  5px dotted blue;
+}
+
+.story-lead p{
+  border: 1px dotted green;
+  color: yellow;
+}
