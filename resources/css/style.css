@@ -1,8 +1,17 @@
 *{
+  display: inline-block;
   font-family: Verdana, Arial, sans-serif;
   background-color: gray;
   border: 1px solid red;
   margin: 0px;
+}
+p{
+  background-color: green;
+}
+.box{
+  background-color: blue;
+  height: 300px;
+  width: 400px;
 }
 /*
 header{
@@ -45,11 +54,3 @@ nav li{
 .story-lead p{
 }
 */
-
-.box{
-  display: inline-block;
-  background-color: blue;
-  margin: 10px;
-  height: 300px;
-  width: 300px;
-}
