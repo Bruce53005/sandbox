@@ -1,18 +1,50 @@
-*{
-  display: block;
-  font-family: Verdana, Arial, sans-serif;
-  background-color: gray;
-  border: 1px solid red;
-  margin: 0px;
+/*
+p,ul,ol,dl,menu,pre{
+  margin: 0;
+  padding: 0;
 }
-p{
-  background-color: green;
+*/
+body{
+/*  display: flex;
+  justify-content: center; */
 }
-.box{
-  background-color: blue;
-  min-height: 300px;
-  width: 400px;
+
+main{
+
+  position: relative;
 }
-span{
-  font-weight: bold;
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+img{
+  width: 10%;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+/*debug GHOST code
+*/
+ *{
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
 }
